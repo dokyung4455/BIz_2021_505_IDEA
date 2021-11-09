@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color: gray;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+section {
+border: 1px solid red;
+    width: 100%;
+}
+label {
+    display: block;
+    border: 1px solid blue;
+    width: 80%;
+    margin: 20px auto;
+}
+input {
+    padding: 10px 0px;
+    margin-right: 10px;
+
+}
+label.la_one input {
+    width: 47%;
+}
+input.one_one {
+    margin-left: 2.5%;
+}
+input.two_one {
+    margin-left: 2.5%;
+}
+label.la_two input.two_one {
+    width: 47%;
+}
+label.la_two input.two_two, label.la_two input.two_three {
+    width: 23%;
+}
+label.la_three input, label.la_four input {
+    width: 95%;
+    margin-left: 2.5%;
+}
+section.section_btn {
+}
+label.label_btn {
+    display: flex;
+    justify-content: right;
+    width: 80%;
+}
+label.label_btn button {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+
+}
+
+button.btn_list {
+    margin-right: 2.5%;
+}
+
+
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0.5rem;
+}
